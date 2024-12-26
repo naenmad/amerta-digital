@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #22c55e; /* Tailwind CSS green-500 */
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.bg-primary {
+  background-color: var(--primary-color);
+}
+
+.hero-section {
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-section {
+  background-size: cover;
+  background-position: center;
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .hero-section {
+    background-image: url('./assets/desktop-background.jpg');
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .hero-section {
+    background-image: url('./assets/tablet-background.jpg');
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .hero-section {
+    background-image: url('./assets/mobile-background.jpg');
+  }
+}

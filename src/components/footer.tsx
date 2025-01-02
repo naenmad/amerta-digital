@@ -14,7 +14,12 @@ const Footer = () => {
             loading="lazy"
           ></iframe>
         </div>
-        <p className="text-lg font-semibold">&copy; 2023 BUMD Amarta Digital. All rights reserved.</p>
+        <div className="mb-6">
+          <p className="text-lg font-semibold">Address:</p>
+          <p>123 Main Street, Melbourne, VIC 3000, Australia</p>
+        </div>
+        <p className="text-lg font-semibold">&copy; 2025 BUMDES Amarta Digital. All rights reserved.</p>
+
         <div className="flex justify-center space-x-6 mt-4">
           <a href="#" className="text-gray-300 hover:text-white transition duration-300">Privacy Policy</a>
           <a href="#" className="text-gray-300 hover:text-white transition duration-300">Terms of Service</a>

@@ -5,6 +5,8 @@ import Footer from './components/footer';
 import ContactPage from './pages/contactpage';
 import AboutPage from './pages/aboutpage';
 import HomePage from "./pages/homepage";
+import GetStartedPage from "./pages/getstartedpage";
+import ScrollUp from "./components/scrollUp.tsx";
 
 const App = () => {
     return (
@@ -15,7 +17,9 @@ const App = () => {
                     <Route path="/contact" element={<ContactPage />} />
                     <Route path="/about" element={<AboutPage />} />
                     <Route path="/" element={<HomePage />} />
+                    <Route path="/getstarted" element={<GetStartedPage />} />
                 </Routes>
+                <ScrollUp />
                 <Footer />
             </div>
         </Router>

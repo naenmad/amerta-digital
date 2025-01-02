@@ -1,6 +1,6 @@
 import '../index.css';
 
-const Features = () => {
+const Services = () => {
   return (
     <section className="bg-white p-8">
       <div className="container mx-auto text-center">
@@ -24,4 +24,4 @@ const Features = () => {
   );
 };
 
-export default Features;
+export default Services;

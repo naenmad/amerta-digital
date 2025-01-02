@@ -1,4 +1,4 @@
-const Contact = () => {
+const ContactHero = () => {
     return (
         <section className="background min-h-screen flex flex-col justify-center items-center text-white p-8 text-center bg-cover bg-center">
             <div className="bg-black bg-opacity-50 p-8 rounded-lg w-full max-w-lg">
@@ -50,4 +50,4 @@ const Contact = () => {
     );
 };
 
-export default Contact;
+export default ContactHero;

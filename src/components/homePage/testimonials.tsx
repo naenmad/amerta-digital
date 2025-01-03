@@ -1,7 +1,7 @@
-import '../index.css';
-import Person1 from '../assets/person1.jpg';
-import Person2 from '../assets/person2.jpg';
-import Person3 from '../assets/person3.jpg';
+import '../../index.css';
+import Person1 from '../../assets/person1.jpg';
+import Person2 from '../../assets/person2.jpg';
+import Person3 from '../../assets/person3.jpg';
 
 const Testimonials = () => {
   return (

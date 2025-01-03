@@ -1,11 +1,10 @@
-import AboutHero from "../components/hero/aboutHero.tsx";
-import FounderMessage from "../components/founderMessage.tsx";
-import Vision from "../components/vision.tsx";
-import Mission from "../components/mission.tsx";
+import AboutHero from "../components/aboutPage/aboutHero.tsx";
+import Vision from "../components/aboutPage/vision.tsx";
+import Mission from "../components/aboutPage/mission.tsx";
 
 function AboutPage() {
     return (
-        <div className="Home">
+        <div className="About">
             <AboutHero />
             <Vision />
             <Mission />

@@ -1,5 +1,3 @@
-import React from 'react';
-
 const WhatIs = () => {
     return (
         <section className="background min-h-screen flex flex-col justify-center items-center text-white p-8 text-center">

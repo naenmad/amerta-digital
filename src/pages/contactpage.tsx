@@ -1,9 +1,11 @@
-import ContactHero from "../components/hero/contactHero.tsx";
+import ContactHero from "../components/contactPage/contactHero.tsx";
+import ContactForm from "../components/contactPage/contactForm.tsx";
 
 function ContactPage() {
     return (
-        <div className="Home">
+        <div className="Contact">
             <ContactHero />
+            <ContactForm />
         </div>
     );
 }

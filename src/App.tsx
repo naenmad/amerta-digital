@@ -1,12 +1,13 @@
-import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Navbar from './components/navbar';
-import Footer from './components/footer';
+import Navbar from './components/utils/navbar.tsx';
+import Footer from './components/utils/footer.tsx';
 import ContactPage from './pages/contactpage';
 import AboutPage from './pages/aboutpage';
-import HomePage from "./pages/homepage";
+import HomePage from "./pages/homepage.tsx";
 import GetStartedPage from "./pages/getstartedpage";
-import ScrollUp from "./components/scrollUp.tsx";
+import ScrollUp from "./components/utils/scrollUp.tsx";
+import PrivacyPolicyPage from "./pages/privacypolicypage";
+import TermsOfServicePage from "./pages/termsofservicepage";
 
 const App = () => {
     return (
@@ -14,10 +15,12 @@ const App = () => {
             <div className="App">
                 <Navbar />
                 <Routes>
-                    <Route path="/contact" element={<ContactPage />} />
-                    <Route path="/about" element={<AboutPage />} />
                     <Route path="/" element={<HomePage />} />
+                    <Route path="/about" element={<AboutPage />} />
+                    <Route path="/contact" element={<ContactPage />} />
                     <Route path="/getstarted" element={<GetStartedPage />} />
+                    <Route path={"/privacy-policy" } element={<PrivacyPolicyPage />} />
+                    <Route path={"/terms-of-service" } element={<TermsOfServicePage />} />
                 </Routes>
                 <ScrollUp />
                 <Footer />

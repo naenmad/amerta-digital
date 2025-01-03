@@ -9,7 +9,7 @@ const AboutHero = () => {
                      className="mb-4 rounded-full h-32 w-32 object-cover mx-auto border-4 border-transparent"/>
                 <h2 className="text-3xl font-bold mb-2">Ahmad Zulkarnaen</h2>
                 <p className="text-primary text-lg mb-6">Founder & CEO of Amarta Digital</p>
-                <p className="text-lg mb-6">
+                <p className="text-lg mb-6 max-w-2xl mx-auto">
                     Welcome to Amarta Digital! Our mission is to drive digital transformation and help our clients
                     achieve their goals through cutting-edge solutions and expert guidance.
                 </p>

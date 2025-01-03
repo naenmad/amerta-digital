@@ -1,9 +1,9 @@
-import WhatIs from '../components/whatIs.tsx';
-import CallToAction from "../components/calltoaction.tsx";
+import WhatIs from '../components/getStarted/whatIs.tsx';
+import CallToAction from "../components/utils/calltoaction.tsx";
 
 function GetStartedPage() {
     return (
-        <div className="Home">
+        <div className="GetStarted">
             <WhatIs />
             <CallToAction />
         </div>

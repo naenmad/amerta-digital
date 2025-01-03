@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { FaArrowUp } from 'react-icons/fa';
-import '../index.css';
+import '../../index.css';
 
 const ScrollUp = () => {
     const [isVisible, setIsVisible] = useState(false);

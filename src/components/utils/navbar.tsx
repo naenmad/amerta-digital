@@ -36,6 +36,7 @@ const Navbar = () => {
         <div className="hidden md:flex space-x-4">
           <Link to="/" className={`transition duration-300 ${isScrolled ? 'text-black hover:text-green-500' : 'text-white hover:text-green-500'}`}>Home</Link>
           <Link to="/about" className={`transition duration-300 ${isScrolled ? 'text-black hover:text-green-500' : 'text-white hover:text-green-500'}`}>About</Link>
+          <Link to={`/service`} className={`transition duration-300 ${isScrolled ? 'text-black hover:text-green-500' : 'text-white hover:text-green-500'}`}>Service</Link>
           <Link to="/contact" className={`transition duration-300 ${isScrolled ? 'text-black hover:text-green-500' : 'text-white hover:text-green-500'}`}>Contact</Link>
         </div>
         <div className="md:hidden flex items-center">
@@ -48,6 +49,7 @@ const Navbar = () => {
         <div className="md:hidden flex flex-col items-center mt-4 space-y-4">
           <Link to="/" className={`transition duration-300 ${isScrolled ? 'text-black hover:text-green-500' : 'text-white hover:text-green-500'}`}>Home</Link>
           <Link to="/about" className={`transition duration-300 ${isScrolled ? 'text-black hover:text-green-500' : 'text-white hover:text-green-500'}`}>About</Link>
+          <Link to="/service" className={`transition duration-300 ${isScrolled ? 'text-black hover:text-green-500' : 'text-white hover:text-green-500'}`}>Service</Link>
           <Link to="/contact" className={`transition duration-300 ${isScrolled ? 'text-black hover:text-green-500' : 'text-white hover:text-green-500'}`}>Contact</Link>
         </div>
       )}

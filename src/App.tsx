@@ -8,6 +8,7 @@ import GetStartedPage from "./pages/getstartedpage";
 import ScrollUp from "./components/utils/scrollUp.tsx";
 import PrivacyPolicyPage from "./pages/privacypolicypage";
 import TermsOfServicePage from "./pages/termsofservicepage";
+import ServicePage from "./pages/servicepage.tsx";
 
 const App = () => {
     return (
@@ -21,6 +22,7 @@ const App = () => {
                     <Route path="/getstarted" element={<GetStartedPage />} />
                     <Route path={"/privacy-policy" } element={<PrivacyPolicyPage />} />
                     <Route path={"/terms-of-service" } element={<TermsOfServicePage />} />
+                    <Route path="/service" element={<ServicePage />} />
                 </Routes>
                 <ScrollUp />
                 <Footer />

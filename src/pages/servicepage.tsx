@@ -5,6 +5,8 @@ import ServiceHero from "../components/servicePage/ServiceHero.tsx";
 import Testimonials from "../components/homePage/testimonials.tsx";
 import CallToAction from "../components/utils/calltoaction.tsx";
 import FAQ from "../components/utils/FAQ.tsx";
+import Team from '../components/servicePage/Team.tsx';
+import Pricing from '../components/servicePage/Pricing.tsx';
 
 function ServicePage() {
     return (
@@ -13,6 +15,8 @@ function ServicePage() {
             <ServiceExplanation />
             <ServiceList />
             <OtherDetails />
+            <Team />
+            <Pricing />
             <Testimonials />
             <FAQ />
             <CallToAction />

@@ -7,6 +7,8 @@ import CallToAction from "../components/utils/calltoaction.tsx";
 import FAQ from "../components/utils/FAQ.tsx";
 import Team from '../components/servicePage/Team.tsx';
 import Pricing from '../components/servicePage/Pricing.tsx';
+import CaseStudies from '../components/servicePage/CaseStudies.tsx';
+import Blog from '../components/servicePage/Blog.tsx';
 
 function ServicePage() {
     return (
@@ -17,6 +19,8 @@ function ServicePage() {
             <OtherDetails />
             <Team />
             <Pricing />
+            <CaseStudies />
+            <Blog />
             <Testimonials />
             <FAQ />
             <CallToAction />
